@@ -1,6 +1,6 @@
 # VeriCorp MCP Server
 
-MCP (Model Context Protocol) server for European company verification via the [VeriCorp API](https://rapidapi.com/vericorp/api/vericorp-api).
+MCP (Model Context Protocol) server for European company verification via the [VeriCorp API](https://rapidapi.com/vericorptestcollab/api/vericorp).
 
 Use this server to give AI assistants (Claude, ChatGPT, etc.) the ability to look up and validate European companies.
 
@@ -31,7 +31,7 @@ Add to your `claude_desktop_config.json`:
 - 50 tool calls per day
 - 5 tool calls per minute
 
-Need more? Get your own API key at [RapidAPI](https://rapidapi.com/vericorp/api/vericorp-api).
+Need more? Get your own API key at [RapidAPI](https://rapidapi.com/vericorptestcollab/api/vericorp).
 
 ## License
 

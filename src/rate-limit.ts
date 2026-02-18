@@ -16,7 +16,7 @@ export async function checkRateLimit(kv: KVNamespace): Promise<string | null> {
   }
 
   if (dayCount >= DAILY_LIMIT) {
-    return "Daily limit reached (50 calls/day). Get your own API key at https://rapidapi.com/vericorp/api/vericorp-api";
+    return "Daily limit reached (50 calls/day). Get your own API key at https://rapidapi.com/vericorptestcollab/api/vericorp";
   }
 
   return null;
