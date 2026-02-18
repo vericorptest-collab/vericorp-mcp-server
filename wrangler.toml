@@ -1,0 +1,16 @@
+name = "vericorp-mcp-server"
+main = "src/index.ts"
+compatibility_date = "2024-12-01"
+
+[observability]
+enabled = true
+
+[[services]]
+binding = "VERICORP_API"
+service = "vericorp"
+
+[[kv_namespaces]]
+binding = "MCP_KV"
+id = "8d5913035a82434c9f32c4e5a666229b"
+
+# RAPIDAPI_PROXY_SECRET is set via: wrangler secret put RAPIDAPI_PROXY_SECRET
